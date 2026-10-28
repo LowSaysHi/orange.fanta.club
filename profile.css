@@ -1,0 +1,13 @@
+/* profile */
+.me{width:100%;max-width:1100px;margin:0 auto;padding:70px 24px;text-align:center}
+.big{width:128px;height:128px;border-radius:50%;border:3px solid var(--or);object-fit:cover;display:block;margin:0 auto 14px}
+.me h2{margin:0;color:var(--or);font-size:32px}
+.me .mail{color:var(--mute);margin:10px 0}
+.row{display:flex;justify-content:center;gap:24px;margin:26px 0;color:var(--mute)}
+.row button:hover{color:var(--text)}
+.banner{margin-top:50px;height:224px;border-radius:8px;background:linear-gradient(90deg,#1a0a02,#c2410c 50%,#1a0a02);display:flex;align-items:center;justify-content:space-around;font-size:clamp(24px,5vw,52px);font-weight:800;color:#fff;padding:0 20px;position:relative}
+.banner small{position:absolute;right:16px;bottom:10px;font-size:14px;font-weight:500}
+.menu{display:none;position:absolute;right:0;top:calc(100% + 6px);min-width:150px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px;z-index:15}
+.menu.open{display:block}
+.menu button{display:block;width:100%;text-align:left;padding:10px 12px;border-radius:6px}
+.menu button:hover{background:var(--line)}
